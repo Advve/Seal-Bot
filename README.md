@@ -1,4 +1,7 @@
 # Seal-BOT
+![RepoSize](https://img.shields.io/github/repo-size/Advve/Seal-Bot)
+![GitHub](https://img.shields.io/github/license/Advve/Seal-Bot)
+
 Official Seal Discord bot.
 
 Will work only on Discord.js v14!
