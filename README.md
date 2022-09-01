@@ -1,5 +1,5 @@
 # Seal-BOT
-Official Adi Server Discord bot.
+Official Seal Discord bot.
 
 Will work only on Discord.js v14!
 
