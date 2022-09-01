@@ -17,7 +17,7 @@ module.exports = {
 			return;
 		}
 		else {
-			const guildId = process.env.GUILDID;
+			const guildId = process.env.GUILD_ID;
 			const connection = getVoiceConnection(guildId);
 
 			if (connection) {

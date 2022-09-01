@@ -18,9 +18,9 @@ module.exports = {
 			return;
 		}
 		else {
-			const stageChannelId = process.env.STAGECHANNELID;
+			const stageChannelId = process.env.STAGE_CHANNEL_ID;
 			const stageChannel = interaction.client.channels.cache.get(stageChannelId);
-			const guildId = process.env.GUILDID;
+			const guildId = process.env.GUILD_ID;
 
 			const player = createAudioPlayer();
 			const resource = createAudioResource(createReadStream('./resources/spining.opus'), {

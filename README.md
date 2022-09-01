@@ -10,6 +10,7 @@ Will work only on Discord.js v14!
 - ✅Chilling global command which is just a spining seal gif with a twist.
 - ✅Server info, ping and avatar commands which doesn't need much explanation does it?
 - ✅Utilises slash commands and embeds.
+- ✅Automatic addition of a set up default role to new joined users.
 - ✅Automatic move from specified afk channel to stage channel with seals theme, because why not ¯\_(ツ)_/¯.
 
 ## Installation
@@ -25,11 +26,11 @@ npm install
 Create and edit the .env file to your preferences with those required variables for it to function:
 ```bash
 DISCORD_TOKEN=
-CLIENTID=
-GUILDID=
-DEFAULTROLEID=
-AFKCHANNELID=
-STAGECHANNELID=
+CLIENT_ID=
+GUILD_ID=
+DEFAULT_ROLE_ID=
+AFK_CHANNEL_ID=
+STAGE_CHANNEL_ID=
 ```
 Start the bot with the command below in its directory:
 ```bash

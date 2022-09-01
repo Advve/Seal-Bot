@@ -13,7 +13,7 @@ module.exports = {
 		}, 15000);
 
 		client.on('guildMemberAdd', member => {
-			const role = member.guild.roles.cache.find(r => r.id === process.env.DEFAULTROLEID);
+			const role = member.guild.roles.cache.find(r => r.id === process.env.DEFAULT_ROLE_ID);
 			member.roles.add(role);
 
 			console.log('User ' + member.user.username + ' joined the server! Assigning default role!');
@@ -21,8 +21,8 @@ module.exports = {
 
 		client.on('voiceStateUpdate', (oldState, newState) => {
 			const newChannel = newState.channelId;
-			const afkVoiceChannel = process.env.AFKCHANNELID;
-			const stageChannel = process.env.STAGECHANNELID;
+			const afkVoiceChannel = process.env.AFK_CHANNEL_ID;
+			const stageChannel = process.env.STAGE_CHANNEL_ID;
 			if (newChannel === afkVoiceChannel) {
 				newState.setChannel(stageChannel);
 				// console.log('afk');
