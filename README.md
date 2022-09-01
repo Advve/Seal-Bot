@@ -20,6 +20,7 @@ Make sure to install Node and all the dependencies:
 ```bash
 npm install
 ```
+Also remember to set up required Intents on Discord Developer Portal!
 
 ## Usage
 
